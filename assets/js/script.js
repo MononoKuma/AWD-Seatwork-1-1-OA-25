@@ -20,23 +20,23 @@ const depositAmountInput = document.getElementById('deposit-amount');
 const withdrawAmountInput = document.getElementById('withdraw-amount');
 const transactionHistory = document.getElementById('transaction-history');
 
-// Show deposit modal
+// Show deposit popup
 depositButton.addEventListener('click', () => {
     depositModal.style.display = 'flex';
 });
 
-// Show withdraw modal
+// Show withdraw popup
 withdrawButton.addEventListener('click', () => {
     withdrawModal.style.display = 'flex';
 });
 
-// Close deposit modal
+// Close deposit popup
 cancelDeposit.addEventListener('click', () => {
     depositAmountInput.value = ''; // Clear input
     depositModal.style.display = 'none';
 });
 
-// Close withdraw modal
+// Close withdraw popup
 cancelWithdraw.addEventListener('click', () => {
     withdrawAmountInput.value = ''; // Clear input
     withdrawModal.style.display = 'none';
@@ -116,4 +116,5 @@ function loadTransactionHistory() {
         row.insertCell(1).innerText = transaction.amount;
         row.insertCell(2).innerText = transaction.date;
     });
+
 }
