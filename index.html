@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Transactions</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">Bank App</div>
+        <ul>
+            <li>🏠 Home</li>
+            <li>⚙️ Settings</li>
+            <li>📜 Transactions</li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <h2>Bank Account</h2>
+        <div class="account-card">
+            <h3>Balance: P<span id="balance">5000</span></h3>
+            <button id="deposit-button">Deposit</button>
+            <button id="withdraw-button">Withdraw</button>
+        </div>
+        <h3>Transaction History</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Type</th>
+                    <th>Amount</th>
+                    <th>Date</th>
+                </tr>
+            </thead>
+            <tbody id="transaction-history">
+                <tr>
+                    <td>Deposit</td>
+                    <td>P5000.00</td>
+                    <td id="initial-date"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="deposit-modal" class="modal">
+        <div class="modal-content">
+            <h3>Enter Amount to Deposit</h3>
+            <input type="number" id="deposit-amount" placeholder="Enter amount">
+            <div class="modal-buttons">
+                <button id="confirm-deposit">Confirm</button>
+                <button id="cancel-deposit">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="withdraw-modal" class="modal">
+        <div class="modal-content">
+            <h3>Enter Amount to Withdraw</h3>
+            <input type="number" id="withdraw-amount" placeholder="Enter amount">
+            <div class="modal-buttons">
+                <button id="confirm-withdraw">Confirm</button>
+                <button id="cancel-withdraw">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
