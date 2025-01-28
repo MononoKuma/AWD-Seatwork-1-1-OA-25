@@ -4,25 +4,22 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
-  <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
-  </a>
+ <a href="https://app.daily.dev/mononokuma">
+   <img src="https://api.daily.dev/devcards/v2/DMEySfkP0murZQ6MrL1WW.png?type=wide&r=rgz" width="652" alt="Aries's Dev Card"/>
+ </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Seatwork 1</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  Seatwork 1 is a simple project focused on systems that uses javascript and html. The system assigned to me is a Transaction system.
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
-
-[![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
+![](https://visit-counter.vercel.app/counter.png?page=MononoKuma/WD-Finals)
 
 ---
 
@@ -59,20 +56,15 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
+Description of the project in detail.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- MultiPage Website
+- javascript
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -97,16 +89,54 @@ WD-ProjectName
 |   └─ css
 |   |   └─ style.css
 |   └─ img
-|   |   └─ fileWith.jpeg/.jpg/.webp/.png
+|   |   └─ background.jpeg
+|   |   └─ logo.png
 |   └─ js
 |       └─ script.js
 └─ pages
-|  └─ pageName
+|  └─ about
+|  |  └─ assets
+|  |  |  └─ css
+|  |  |  |  └─ style.css
+|  |  |  └─ img
+|  |  |  |  └─ banner.jpeg
+|  |  |  |  └─ logo.png
+|  |  |  └─ js
+|  |  |     └─ script.js
+|  |  └─ index.html
+|  └─ contact
+|  |  └─ assets
+|  |  |  └─ css
+|  |  |  |  └─ style.css
+|  |  |  └─ img
+|  |  |  |  └─ banner.jpeg
+|  |  |  |  └─ logo.png
+|  |  |  └─ js
+|  |  |     └─ script.js
+|  |  └─ index.html
+|  └─ credits
+|  |  └─ assets
+|  |  |  └─ css
+|  |  |  |  └─ style.css
+|  |  |  └─ img
+|  |  |  |  └─ canva.svg
+|  |  |  |  └─ gfg.svg
+|  |  |  |  └─ logo.png
+|  |  |  |  └─ removebg.png
+|  |  |  |  └─ w3schools.png
+|  |  |  |  └─ youtube.png
+|  |  |  └─ js
+|  |  |     └─ script.js
+|  |  └─ index.html
+|  └─ projects
 |     └─ assets
 |     |  └─ css
 |     |  |  └─ style.css
+|     |  └─ document
+|     |  |  └─ Ong_Seatwork 1.pdf
+|     |  |  └─ desktop.ini
 |     |  └─ img
-|     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
+|     |  |  └─ logo.jpg
 |     |  └─ js
 |     |     └─ script.js
 |     └─ index.html
@@ -119,4 +149,10 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| W3Shools | HTML & CSS | https://www.w3schools.com |
+| GeeksforGeeks | HTML & CSS | https://www.geeksforgeeks.org |
+| Ian Ramirez | Template | https://github.com/zyx-0314 |
+| Daily Dev | Readme Icon | https://daily.dev/ |
+| Google | Images | https://google.com/ |
+| Getbootstrap | Icons | https://icons.getbootstrap.com |
+| WakaTime | Timer | https://wakatime.com/@MononoKuma |
