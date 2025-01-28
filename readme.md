@@ -61,10 +61,9 @@ Description of the project in detail.
 
 
 ### Key Components
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
 - MultiPage Website
 - javascript
+- JSStorage
 
 ### Technology
 <!-- TODO: List of Technology Used -->
