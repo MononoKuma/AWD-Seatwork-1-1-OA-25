@@ -58,6 +58,7 @@
 <!-- The following are just sample -->
 Description of the project in detail.
 
+AWD-Seatwork1 is a simple web project that demonstrates the use of JavaScript and HTML in building an interactive Transaction System. The system allows users to enter and process transaction data while utilizing JSStorage (localStorage) to save information persistently. It incorporates popup boxes, such as alert boxes to notify users, confirm boxes for transaction confirmations, and prompt boxes for user input. JavaScript handles the logic behind these features, ensuring smooth interactions and data management. This project highlights fundamental web development concepts, emphasizing client-side scripting for dynamic functionality.
 
 
 ### Key Components
@@ -72,7 +73,7 @@ Description of the project in detail.
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
 ## Rules, Practices and Principles
-1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
+1. Always use `AWD-` in the front of the Title of the Project for the Subject followed by your custom naming.
 2. Do not rename any .html files; always use `index.html` as the filename.
 3. Place Files in their respective folders.
 4. All file naming are in camel case.
@@ -88,57 +89,8 @@ WD-ProjectName
 |   └─ css
 |   |   └─ style.css
 |   └─ img
-|   |   └─ background.jpeg
-|   |   └─ logo.png
 |   └─ js
 |       └─ script.js
-└─ pages
-|  └─ about
-|  |  └─ assets
-|  |  |  └─ css
-|  |  |  |  └─ style.css
-|  |  |  └─ img
-|  |  |  |  └─ banner.jpeg
-|  |  |  |  └─ logo.png
-|  |  |  └─ js
-|  |  |     └─ script.js
-|  |  └─ index.html
-|  └─ contact
-|  |  └─ assets
-|  |  |  └─ css
-|  |  |  |  └─ style.css
-|  |  |  └─ img
-|  |  |  |  └─ banner.jpeg
-|  |  |  |  └─ logo.png
-|  |  |  └─ js
-|  |  |     └─ script.js
-|  |  └─ index.html
-|  └─ credits
-|  |  └─ assets
-|  |  |  └─ css
-|  |  |  |  └─ style.css
-|  |  |  └─ img
-|  |  |  |  └─ canva.svg
-|  |  |  |  └─ gfg.svg
-|  |  |  |  └─ logo.png
-|  |  |  |  └─ removebg.png
-|  |  |  |  └─ w3schools.png
-|  |  |  |  └─ youtube.png
-|  |  |  └─ js
-|  |  |     └─ script.js
-|  |  └─ index.html
-|  └─ projects
-|     └─ assets
-|     |  └─ css
-|     |  |  └─ style.css
-|     |  └─ document
-|     |  |  └─ Ong_Seatwork 1.pdf
-|     |  |  └─ desktop.ini
-|     |  └─ img
-|     |  |  └─ logo.jpg
-|     |  └─ js
-|     |     └─ script.js
-|     └─ index.html
 └─ index.html
 └─ readme.md
 ```
@@ -152,6 +104,4 @@ WD-ProjectName
 | GeeksforGeeks | HTML & CSS | https://www.geeksforgeeks.org |
 | Ian Ramirez | Template | https://github.com/zyx-0314 |
 | Daily Dev | Readme Icon | https://daily.dev/ |
-| Google | Images | https://google.com/ |
-| Getbootstrap | Icons | https://icons.getbootstrap.com |
 | WakaTime | Timer | https://wakatime.com/@MononoKuma |
